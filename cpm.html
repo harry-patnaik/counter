@@ -14,7 +14,7 @@
 
     <div class="header">
         <div id="title">
-            <img src="workspace.png" alt="mouse and keyboard">
+            <a href="index.html"><img src="workspace.png" alt="mouse and keyboard"></a>
             <span class="heading">COUNTER<span>
         </div>
 
@@ -29,11 +29,23 @@
         </nav>
     </div>
 
-    <br><br><br><br><br><br><h1 style="color: tomato;" class="cpm_counter">0</h1><br><br>
+    <br><br><br><br><br><br><h1 style="color: tomato;" class="counter">0 CPM</h1><br>
+
+    <div class="timer"><span class="minutes">00</span>:<span class="seconds">00</span>:<span class="milliseconds">00</span></div><br>
 
     <button class="button">click me</button>
     <button class="button">score</button>
     <button class="button">reset</button>
+
+    <table>
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th>SCORE</th>
+                </tr>
+        </thead>
+        <tbody class="scores"></tbody>
+    </table>
 
     <script src="click.js"></script>
 </body>
